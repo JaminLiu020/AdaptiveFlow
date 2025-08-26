@@ -13,7 +13,7 @@ __all__ = [
 
 
 def ineurons(
-    path: PathLike = "~/.cache/cellflow/ineurons.h5ad",
+    path: PathLike = "~/CellFlow-main/datasets/ineurons.h5ad",
     force_download: bool = False,
     **kwargs: Any,
 ) -> ad.AnnData:
@@ -45,7 +45,8 @@ def ineurons(
 
 
 def pbmc_cytokines(
-    path: PathLike = "~/.cache/cellflow/pbmc_parse.h5ad",
+    # path: PathLike = "~/.cache/cellflow/pbmc_parse.h5ad",
+    path: PathLike = "~/CellFlow-main/datasets/pbmc_parse.h5ad",
     force_download: bool = False,
     **kwargs: Any,
 ) -> ad.AnnData:
@@ -78,7 +79,7 @@ def pbmc_cytokines(
 
 
 def zesta(
-    path: PathLike = "~/.cache/cellflow/zesta.h5ad",
+    path: PathLike = "~/CellFlow-main/datasets/zesta.h5ad",
     force_download: bool = False,
     **kwargs: Any,
 ) -> ad.AnnData:

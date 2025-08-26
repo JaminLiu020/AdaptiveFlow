@@ -1,0 +1,7 @@
+name: cuda12-patch
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=12.0
